@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	File
 %define		pnam	DesktopEntry
-Summary:	Desktop files module
+Summary:	File::DesktopEntry - desktop files module
+Summary(pl):	File::DesktopEntry - modu³ do plików .desktop
 Name:		perl-File-DesktopEntry
 Version:	0.02
 Release:	1
@@ -18,17 +19,18 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq	'perl(anything_fake_or_conditional)'
-
 %description
-This module is used to work with .desktop files. The format of these files
-is specified by the freedesktop "Desktp Entry" specification.
+This module is used to work with .desktop files. The format of these
+files is specified by the freedesktop "Desktop Entry" specification.
+
+%description -l pl
+Ten modu³ s³u¿y do pracy z plikami .desktop. Format tych plików jest
+opisany w specyfikacji freedesktop "Desktop Entry".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-# Don't use pipes here: they generally don't work. Apply a patch.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 
