@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	DesktopEntry
 Summary:	File::DesktopEntry - desktop files module
-Summary(pl.UTF-8):   File::DesktopEntry - moduł do plików .desktop
+Summary(pl.UTF-8):	File::DesktopEntry - moduł do plików .desktop
 Name:		perl-File-DesktopEntry
 Version:	0.02
 Release:	1
