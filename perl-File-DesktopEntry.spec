@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	DesktopEntry
 Summary:	File::DesktopEntry - desktop files module
-Summary(pl):	File::DesktopEntry - modu≥ do plikÛw .desktop
+Summary(pl.UTF-8):   File::DesktopEntry - modu≈Ç do plik√≥w .desktop
 Name:		perl-File-DesktopEntry
 Version:	0.02
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module is used to work with .desktop files. The format of these
 files is specified by the freedesktop "Desktop Entry" specification.
 
-%description -l pl
-Ten modu≥ s≥uøy do pracy z plikami .desktop. Format tych plikÛw jest
+%description -l pl.UTF-8
+Ten modu≈Ç s≈Çu≈ºy do pracy z plikami .desktop. Format tych plik√≥w jest
 opisany w specyfikacji freedesktop "Desktop Entry".
 
 %prep
