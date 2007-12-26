@@ -8,14 +8,16 @@
 Summary:	File::DesktopEntry - desktop files module
 Summary(pl.UTF-8):	File::DesktopEntry - moduł do plików .desktop
 Name:		perl-File-DesktopEntry
-Version:	0.02
+Version:	0.04
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9c97efa062c04bcb86a0a6a3707355d1
+Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	fc196bc1a4d6ca84953fee5a9cdaa629
+URL:		http://search.cpan.org/dist/File-DesktopEntry/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-File-BaseDir >= 0.03
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
